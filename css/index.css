@@ -1,0 +1,79 @@
+.graybar {
+    background-color: #242222;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    flex-shrink: 2;
+    z-index: 2;
+}
+
+.banner {
+    position: absolute;
+    width: 12.5%;
+    height: 80%;
+    z-index: 1;
+    top: 10%;
+}
+
+.sid-wilson {
+    background-image: url("../assets/sid-wilson.jpg");
+    background-position: center;
+    background-size: cover;
+    left: 0%;
+}
+
+.jim-root {
+    background-image: url("../assets/james-root.jpg");
+    background-position: center;
+    background-size: cover;
+    left: 12.5%;
+}
+
+.shawn-crahan {
+    background-image: url("../assets/shawn-crahan.jpg");
+    background-position: center;
+    background-size: cover;
+    left: 25%;
+}
+
+.mick-thompson {
+    background-image: url(../assets/mick-thompson.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 37.5%;
+}
+
+.corey-taylor {
+    background-image: url(../assets/corey-taylor.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 50%;
+}
+
+.alessandro-venturella {
+    background-image: url(../assets/alessandro-venturella.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 62.5%;
+}
+
+.jay-weinberg {
+    background-image: url(../assets/jay-weinberg.jpg);
+    background-position: 75%;
+    background-size: cover;
+    left: 75%;
+}
+
+.michael-pfaff {
+    background-image: url(../assets/michael-pfaff.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 87.5%;
+}
+
+
+
+
+.footer {
+    top: 90%;
+}
