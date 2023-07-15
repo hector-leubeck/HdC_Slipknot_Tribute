@@ -1,3 +1,8 @@
+@font-face {
+    font-family: slipknotFont;
+    src: url(../assets/slipknot/Sickness.ttf);
+}
+
 .graybar {
     background-color: #242222;
     position: fixed;
@@ -5,6 +10,15 @@
     height: 10%;
     flex-shrink: 2;
     z-index: 2;
+}
+
+.page-title {
+    font-family: slipknotFont;
+    color: #fff;
+    font-size: 42px;
+    position: relative;
+    top: 15%;
+    left: 45%
 }
 
 .banner {
@@ -71,7 +85,29 @@
     left: 87.5%;
 }
 
+.logo {
+    background-image: url(../assets/slipknot-logo.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 80%;
+    position: absolute;
+    top: 54%;
+    left: 45%;
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+}
 
+.rotate {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 
 .footer {
