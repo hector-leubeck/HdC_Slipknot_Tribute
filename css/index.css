@@ -21,6 +21,45 @@
     left: 45%
 }
 
+.menu-button {
+    position: fixed;
+    height: 3.5%;
+    width: 3%;
+    left: 95vw;
+    top: 3vh;
+}
+
+
+.menu {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 54px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.menuline {
+    width: 100%;
+    height: 20%;
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upperline {
+    top: 10%;
+}
+
+.bottomline {
+    top: 90%;
+}
+
 .banner {
     position: absolute;
     width: 12.5%;
@@ -34,6 +73,15 @@
     background-position: center;
     background-size: cover;
     left: 0%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.sid-wilson:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1
 }
 
 .jim-root {
@@ -41,6 +89,15 @@
     background-position: center;
     background-size: cover;
     left: 12.5%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.jim-root:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1
 }
 
 .shawn-crahan {
@@ -48,6 +105,15 @@
     background-position: center;
     background-size: cover;
     left: 25%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.shawn-crahan:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1
 }
 
 .mick-thompson {
@@ -55,6 +121,15 @@
     background-position: center;
     background-size: cover;
     left: 37.5%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.mick-thompson:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1
 }
 
 .corey-taylor {
@@ -62,6 +137,15 @@
     background-position: center;
     background-size: cover;
     left: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.corey-taylor:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1
 }
 
 .alessandro-venturella {
@@ -69,6 +153,15 @@
     background-position: center;
     background-size: cover;
     left: 62.5%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.alessandro-venturella:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1
 }
 
 .jay-weinberg {
@@ -76,6 +169,15 @@
     background-position: 75%;
     background-size: cover;
     left: 75%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.jay-weinberg:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1
 }
 
 .michael-pfaff {
@@ -83,6 +185,15 @@
     background-position: center;
     background-size: cover;
     left: 87.5%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.michael-pfaff:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1
 }
 
 .logo {
@@ -97,6 +208,7 @@
     height: 200px;
     width: 200px;
     z-index: 2;
+    cursor: pointer;
 }
 
 .rotate {
@@ -112,4 +224,12 @@
 
 .footer {
     top: 90%;
+}
+
+.signature {
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    left: 85%;
+    top: 70%;
 }
