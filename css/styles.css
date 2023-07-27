@@ -17,7 +17,6 @@
   width: 100%;
   position: absolute;
 }
-
 .graybar {
   background-color: #242222;
   position: absolute;
@@ -35,7 +34,6 @@
   top: 15%;
   left: 42%;
 }
-
 .breadcrumb {
   list-style: none;
 }
@@ -46,14 +44,15 @@
 
 .decorate-btn,
 .decorate-btn:after {
-  width: 22vw;
-  height: 10vh;
+  width: 25%;
+  height: 15%;
   font-size: 1em;
+  cursor: pointer;
   font-family: slipknotFont;
   background: linear-gradient(45deg, transparent 5%, #131212 5%);
   border: 0;
   color: #fff;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   box-shadow: 6px 5px 10px #410303;
   outline: transparent;
   position: relative;
@@ -87,7 +86,7 @@
 }
 
 .decorate-btn:hover:after {
-  animation: 1.9s glitch;
+  animation: 2s glitch;
   animation-timing-function: steps(2, end);
 }
 
@@ -174,7 +173,6 @@
   filter: grayscale(100%);
   opacity: 0.5;
 }
-
 .sid-wilson:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -191,7 +189,6 @@
   filter: grayscale(100%);
   opacity: 0.5;
 }
-
 .jim-root:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -208,7 +205,6 @@
   filter: grayscale(100%);
   opacity: 0.5;
 }
-
 .shawn-crahan:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -225,7 +221,6 @@
   filter: grayscale(100%);
   opacity: 0.5;
 }
-
 .mick-thompson:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -242,7 +237,6 @@
   filter: grayscale(100%);
   opacity: 0.5;
 }
-
 .corey-taylor:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -259,7 +253,6 @@
   filter: grayscale(100%);
   opacity: 0.5;
 }
-
 .alessandro-venturella:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -276,7 +269,6 @@
   filter: grayscale(100%);
   opacity: 0.5;
 }
-
 .jay-weinberg:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -293,7 +285,6 @@
   filter: grayscale(100%);
   opacity: 0.5;
 }
-
 .michael-pfaff:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -309,6 +300,7 @@
 .resume {
   color: #eee;
   padding: 0.7%;
+  margin-left: 2%;
 }
 
 .slipknot-tribute {
@@ -322,7 +314,7 @@
 
 .toggle-section {
   height: 1vh;
-  width: 60vw;
+  width: 60%;
   line-height: 15px;
 }
 
@@ -330,11 +322,11 @@
   background-image: url(../assets/slipknot-logo.jpg);
   background-position: center;
   background-size: cover;
-  opacity: 0;
+  opacity: 0.9;
   border-radius: 80%;
   position: absolute;
   top: 10%;
-  left: 5%;
+  left: 1%;
   height: 50px;
   width: 50px;
   z-index: 2;
@@ -351,84 +343,99 @@
   }
 }
 
-.collapsible-btn {
-  position: absolute;
-  padding: 2% 10%;
-  background-color: #000;
-  border: 2px #410303 solid;
-  box-sizing: border-box;
-  color: #eee;
-  cursor: pointer;
-  width: 99%;
-  height: 10%;
-  text-align: center;
-  font-size: 26px;
-  line-height: 75%;
-  margin: 2%;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  z-index: 3;
-}
-
 .history-title {
   font-family: slipknotFont;
-  /* font-size: 24px; */
+  font-size: 24px;
   padding-bottom: 10px;
   line-height: 5px;
   z-index: inherit;
+}
+
+.title {
+  font-family: slipknotFont;
+  font-size: 24px;
+  padding-bottom: 10px;
+  line-height: 5px;
+  z-index: inherit;
+  text-align: center;
+  color: #eee;
+  padding-bottom: 2%;
+}
+
+.collapsible-btn {
+  position: absolute;
+  padding: 0% 2%;
+  background-color: #000;
+  border: none;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  width: 95%;
+  height: 50%;
+  text-align: center;
+  font-size: 26px;
+  line-height: 75%;
+  margin: 0.5%;
+  outline: none;
+  transition: 0.4s;
+  z-index: 3;
 }
 
 .active,
 .collapsible-btn:hover {
   background-color: #333;
   font-size: 24px;
-  width: 100%;
-  height: 3%;
   opacity: 0.8;
   transition: 1.3s;
 }
-.collapsible-btn:hover .logo {
-  opacity: 1;
-}
-
 .active {
   background-color: #000;
+  height: 10%;
 }
 
 .history-panel {
-  position: relative;
-  box-sizing: border-box;
-  padding: 30px 90px 30px 90px;
-  margin-top: 6%;
-  width: 100%;
-  background-color: #000;
   max-height: 0;
+  position: relative;
+  margin-top: 14%;
+  left: 10%;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  z-index: 2;
 }
 
 .history {
   position: relative;
+  line-height: 110%;
+  word-wrap: break-word;
   top: 80%;
-  padding: 0 18px;
+  padding: 0px;
   color: #eee;
 }
 
+.accordion-panel {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 0px 0px 0px;
+  width: 100%;
+  height: 10%;
+  background-color: #000;
+  z-index: 2;
+}
 .history-1 {
   top: 2%;
   left: 5%;
 }
 
-/* .footer {
-    top: 200%;
+.footer {
+  position: relative;
+  bottom: -100%;
 }
 
 .signature {
-    position: relative;
-    color: #fff;
-    font-size: 12px;
-    left: 85%;
-    top: 70%;
-} */
+  width: auto;
+  position: relative;
+  color: #fff;
+  font-size: 12px;
+  text-align: end;
+  right: 5%;
+  top: 70%;
+}
