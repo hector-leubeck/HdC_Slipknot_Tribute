@@ -1,0 +1,58 @@
+@font-face {
+  font-family: slipknotFont;
+  src: url(../assets/slipknot/Sickness.ttf);
+}
+
+.graybar {
+  background-color: #242222;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  flex-shrink: 2;
+  z-index: 2;
+}
+
+.back-btn {
+  position: absolute;
+  top: 35%;
+  left: 2%;
+  height: 50%;
+  width: 3%;
+  border: #611 solid 2px;
+  border-radius: 50%;
+  background-color: #242225;
+  color: #811;
+  text-align: center;
+  line-height: 10%;
+  font-size: 250%;
+  box-shadow: 6px 5px 10px #a00404;
+}
+
+.back-btn:hover {
+  box-shadow: 6px 5px 10px #410303;
+}
+
+.back-btn:active {
+  color: #410303;
+}
+
+.member-name {
+  text-align: center;
+  font-family: slipknotFont;
+  margin-top: 1%;
+  font-size: 200%;
+  color: #eee;
+}
+
+.profile-section {
+  background-color: #fff;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+}
+
+.photo {
+  width: 80%;
+  position: inherit;
+  top: 2000px;
+}
