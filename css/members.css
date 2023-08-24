@@ -4,6 +4,8 @@
 }
 html {
   scroll-behavior: smooth;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .bold {
@@ -90,4 +92,6 @@ html {
   color: #eee;
   position: relative;
   padding: 7.5% 10% 10% 30%;
+  user-select: text;
+  -webkit-user-select: text;
 }
