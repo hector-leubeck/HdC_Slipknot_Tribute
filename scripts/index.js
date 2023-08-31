@@ -5,7 +5,6 @@ window.addEventListener("load", function () {
     act[i].addEventListener("click", function () {
       const allPanels = document.querySelectorAll(".history-panel");
       allPanels.forEach((panel) => {
-        console.log(panel);
         if (panel.style.maxHeight) {
           panel.style.maxHeight = null;
         }
@@ -16,7 +15,6 @@ window.addEventListener("load", function () {
       });
       let panel = this.nextElementSibling;
       let content = panel.nextElementSibling;
-      console.log(content);
       this.classList.toggle("active");
 
       if (panel.style.maxHeight) {
